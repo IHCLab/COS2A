@@ -79,7 +79,7 @@ for i = 1:num_random_pixels
     defaultTokenSize = lgd.ItemTokenSize;
     set(lgd, 'FontSize',10, 'FontName', font_name, 'ItemTokenSize', [10, defaultTokenSize(2)]);
     ylabel('Reflectance', 'FontSize', font_size, 'FontName', font_name);
-    xlabel('Wavelength (m)', 'FontSize', font_size, 'FontName', font_name);
+    xlabel('Wavelength (\mum)', 'FontSize', font_size, 'FontName', font_name);
     title(sprintf('Pixel Value at (%d,%d)', x, y), 'FontSize', font_size, 'FontName', font_name);
 
     ax = gca;
